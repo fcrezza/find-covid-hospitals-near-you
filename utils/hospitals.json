@@ -1,0 +1,14 @@
+[
+  {
+    "name": "RS Universitas Hasanuddin",
+    "address": "Jl. Perintis Kemerdekaan No.KM 10, Tamalanrea Indah, Kec. Tamalanrea, Kota Makassar, Sulawesi Selatan 90245",
+    "province": "Sulawesi Selatan",
+    "telephone": ["0411-591331", "cust.care 0411-591331 ext 333"],
+    "fax": "",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -5.13329,
+      "lang": 119.494376
+    }
+  }
+]
