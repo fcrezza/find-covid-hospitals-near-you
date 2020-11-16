@@ -1,0 +1,2067 @@
+[
+  {
+    "name": "RSU Raden Mattaher Jambi",
+    "province": "Jambi",
+    "telephone": [
+      "0741-61692"
+    ],
+    "fax": "",
+    "address": "Jambi, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -1.6,
+      "lng": 103.61667
+    }
+  },
+  {
+    "name": "RSU dr. Djasamen Saragih Pematang Siantar",
+    "province": "Sumatera Utara",
+    "telephone": [
+      "0622-23824"
+    ],
+    "fax": "",
+    "address": "Kotamadya Pematangsiantar, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 2.978,
+      "lng": 99.0557
+    }
+  },
+  {
+    "name": "RSUD Kayu Agung",
+    "province": "Sumatera Selatan",
+    "telephone": [
+      "0712-323889"
+    ],
+    "fax": "",
+    "address": "Kayu Agung, Sumatera Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -3.392,
+      "lng": 104.8306
+    }
+  },
+  {
+    "name": "RSUP H. Adam Malik",
+    "province": "Sumatera Utara",
+    "telephone": [
+      "061-836-4581"
+    ],
+    "fax": "061-836 0255",
+    "address": "Jalan Bunga Lau 17, Simpang Selayang, Medan 20136, Sumatera Utara, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 3.5182212,
+      "lng": 98.6085392
+    }
+  },
+  {
+    "name": "RSUP dr. Mohammad Hoesin Palembang",
+    "province": "Sumatera Selatan",
+    "telephone": [
+      "0711-354088"
+    ],
+    "fax": "",
+    "address": "Jalan Jenderal Sudirman, Ilir Timur I, Palembang 30124, Sumatera Selatan, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -2.9662373,
+      "lng": 104.7498734
+    }
+  },
+  {
+    "name": "RSUD Kabupaten Lahat",
+    "province": "Sumatera Selatan",
+    "telephone": [
+      "0731-321785"
+    ],
+    "fax": "",
+    "address": "Kabupaten Lahat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -3.7864,
+      "lng": 103.5428
+    }
+  },
+  {
+    "name": "RSU dr. Sobirin Musirawas",
+    "province": "Sumatera Selatan",
+    "telephone": [
+      "0733-321013"
+    ],
+    "fax": "",
+    "address": "Sumatera Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -2.75,
+      "lng": 103.83333
+    }
+  },
+  {
+    "name": "RSUD Siti Fatimah",
+    "province": "Sumatera Selatan",
+    "telephone": [
+      "0711-5718883"
+    ],
+    "fax": "",
+    "address": "Jalan Sukajaya, Sukarame, Palembang 30961, Sumatera Selatan, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -2.9482931,
+      "lng": 104.7345504
+    }
+  },
+  {
+    "name": "RSUP Dr. M. Jamil Padang",
+    "province": "Sumatera Barat",
+    "telephone": [
+      "0751-37030",
+      "0751-37031",
+      "0751-32373"
+    ],
+    "fax": "0751-32371",
+    "address": "Padang, Sumatera Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -0.94924,
+      "lng": 100.35427
+    }
+  },
+  {
+    "name": "RSUD Dumai",
+    "province": "Riau",
+    "telephone": [
+      "0765-38367",
+      "0765-440992"
+    ],
+    "fax": "",
+    "address": "Jalan Sultan Syarif Kasim 11, Dumai 28826, Riau, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 1.679784,
+      "lng": 101.4590555
+    }
+  },
+  {
+    "name": "RSUD Arifin Achmad",
+    "province": "Riau",
+    "telephone": [
+      "0761-21618",
+      "0761-21657",
+      "0761-855702",
+      "0761-23418"
+    ],
+    "fax": "",
+    "address": "Jalan Diponegoro 2, 28156, Riau, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 0.5214074,
+      "lng": 101.4518418
+    }
+  },
+  {
+    "name": "RSUD dr. Loekmono Hadi Kudus",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0291-444001",
+      "0291-431831"
+    ],
+    "fax": "",
+    "address": "Jalan Jenderal Ahmad Yani, Kudus 59316, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.8185566,
+      "lng": 110.836236
+    }
+  },
+  {
+    "name": "RSUD Kota Tanjungpinang",
+    "province": "Kepulauan Riau",
+    "telephone": [
+      "0771-313000"
+    ],
+    "fax": "",
+    "address": "Tanjungpinang, Kepulauan Riau, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 0.91667,
+      "lng": 104.45
+    }
+  },
+  {
+    "name": "RSUD Puri Husada Tembilahan",
+    "province": "Riau",
+    "telephone": [
+      "0768-22118"
+    ],
+    "fax": "",
+    "address": "Jalan Veteran, Tembilahan 29281, Riau, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -0.3228877,
+      "lng": 103.1632072
+    }
+  },
+  {
+    "name": "RSUD Jend. A. Yani",
+    "province": "Lampung",
+    "telephone": [
+      "0725-41820"
+    ],
+    "fax": "",
+    "address": "Lampung, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -5,
+      "lng": 105
+    }
+  },
+  {
+    "name": "RSUD dr. H. Abdul Moeloek",
+    "province": "Lampung",
+    "telephone": [
+      "0721-703312"
+    ],
+    "fax": "",
+    "address": "Lampung, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -5,
+      "lng": 105
+    }
+  },
+  {
+    "name": "RSUD Embung Fatimah",
+    "province": "Kepulauan Riau",
+    "telephone": [
+      "0778-364446"
+    ],
+    "fax": "",
+    "address": "Jl.Pertiwi, Batam 29425, Kepulauan Riau, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 1.0501976,
+      "lng": 103.9673121
+    }
+  },
+  {
+    "name": "RSUP Persahabatan",
+    "province": "DKI Jakarta",
+    "telephone": [
+      "IGD 021-22472222 ext 1",
+      "021-4891708"
+    ],
+    "fax": "021-4711222, 021 4890778",
+    "address": "Jl. Persahabatan Raya No. 1, Pisangan Timur, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta"
+  },
+  {
+    "name": "RSUD Raja Ahmad Tabib",
+    "province": "Kepulauan Riau",
+    "telephone": [
+      "IGD 0771-7335201",
+      "Informasi 0771-7335202"
+    ],
+    "fax": "0771-7335203",
+    "address": "Jalan Raya Kawal 100, Tanjungpinang 29125, Kepulauan Riau, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 0.9236931,
+      "lng": 104.500107
+    }
+  },
+  {
+    "name": "RSUD Tarakan Jakarta",
+    "province": "DKI Jakarta",
+    "telephone": [
+      "0812-1199-2017",
+      "021-3503003 ext 1148"
+    ],
+    "fax": "",
+    "address": "Jalan Lematang, Gambir, Jakarta 10150, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.1723055,
+      "lng": 106.8106017
+    }
+  },
+  {
+    "name": "RSUD Banyumas",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0281-796182",
+      "0281-796031"
+    ],
+    "fax": "0281-796182",
+    "address": "9 1, Sudagaran 53192, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.5300051,
+      "lng": 109.2923802
+    }
+  },
+  {
+    "name": "RSUD dr. Moewardi",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0271-634634"
+    ],
+    "fax": "0271-637412",
+    "address": "Jalan Kolonel Sutarto 132, Purwodiningratan 57126, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.5585444,
+      "lng": 110.8422175
+    }
+  },
+  {
+    "name": "RSUP Dr. Kariadi",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "024-8413993",
+      "024-8413476"
+    ],
+    "fax": "",
+    "address": "Jawa Tengah, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -7.5,
+      "lng": 110
+    }
+  },
+  {
+    "name": "RSU Dr. H. Soewondo Kendal",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0294-381433"
+    ],
+    "fax": "",
+    "address": "Jalan Laut 21, Ngilir 51311, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.9181289,
+      "lng": 110.206417
+    }
+  },
+  {
+    "name": "RSUP Fatmawati",
+    "province": "DKI Jakarta",
+    "telephone": [
+      "021-7501524"
+    ],
+    "fax": "",
+    "address": "Jakarta, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.21462,
+      "lng": 106.84513
+    }
+  },
+  {
+    "name": "RSUD Pasar Rebo",
+    "province": "DKI Jakarta",
+    "telephone": [
+      "021-8401127"
+    ],
+    "fax": "",
+    "address": "Jalan Tahi Bonar Simatupang, Pasar Rebo, Jakarta 13760, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.3035658,
+      "lng": 106.8620104
+    }
+  },
+  {
+    "name": "RS Tk. II Dustira",
+    "province": "Jawa Barat",
+    "telephone": [
+      "022-665-2207",
+      "022-663-3967",
+      "022-663-0932"
+    ],
+    "fax": "",
+    "address": "Jawa Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.75,
+      "lng": 107.5
+    }
+  },
+  {
+    "name": "RSUD Sekarwangi Sukabumi",
+    "province": "Jawa Barat",
+    "telephone": [
+      "0266-531261",
+      "0266-533376"
+    ],
+    "fax": "",
+    "address": "Sukabumi, Jawa Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.91806,
+      "lng": 106.92667
+    }
+  },
+  {
+    "name": "RSUD Subang",
+    "province": "Jawa Barat",
+    "telephone": [
+      "0260-411421"
+    ],
+    "fax": "",
+    "address": "Arif Rachman Hakim, Sukamelang 41271, Jawa Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.5573015,
+      "lng": 107.7471045
+    }
+  },
+  {
+    "name": "RSUD Indramayu",
+    "province": "Jawa Barat",
+    "telephone": [
+      "0234-272655"
+    ],
+    "fax": "0234-275330",
+    "address": "Jalan Murah Nara 7, Lemahabang 45222, Jawa Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.329731,
+      "lng": 108.3214951
+    }
+  },
+  {
+    "name": "RS Paru Dr. H. A. Rotinsulu",
+    "province": "Jawa Barat",
+    "telephone": [
+      "022-231427",
+      "022-2034446",
+      "0813-2134-8001",
+      "SMS 0811-229-4595"
+    ],
+    "fax": "",
+    "address": "Jawa Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.75,
+      "lng": 107.5
+    }
+  },
+  {
+    "name": "RSUD Dr. Slamet Garut",
+    "province": "Jawa Barat",
+    "telephone": [
+      "0262-232720"
+    ],
+    "fax": "",
+    "address": "Jalan Pembangunan, Regol 44117, Jawa Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.2195141,
+      "lng": 107.8964732
+    }
+  },
+  {
+    "name": "RSD Gunung Jati",
+    "province": "Jawa Barat",
+    "telephone": [
+      "0231-206330"
+    ],
+    "fax": "",
+    "address": "Jawa Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -7.07755,
+      "lng": 108.16585
+    }
+  },
+  {
+    "name": "RSPAD Gatot Soebroto",
+    "province": "DKI Jakarta",
+    "telephone": [
+      "021-371008",
+      "021-3441008 ext 384",
+      "021-3840702"
+    ],
+    "fax": "",
+    "address": "Jakarta, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.21462,
+      "lng": 106.84513
+    }
+  },
+  {
+    "name": "RSPI Prof. Dr. Sulianti Saroso",
+    "province": "DKI Jakarta",
+    "telephone": [
+      "021-6506559"
+    ],
+    "fax": "021-6401411",
+    "address": "Jalan Sunter Permai Raya, Tanjung Priok, Jakarta 17705, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.1298342,
+      "lng": 106.8625904
+    }
+  },
+  {
+    "name": "RSUD dr. M. Yunus Bengkulu",
+    "province": "Bengkulu",
+    "telephone": [
+      "0736-52004",
+      "0736-52008"
+    ],
+    "fax": "",
+    "address": "Jalan Hibrida, Pagar Dewa 38211, Bengkulu, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -3.8355293,
+      "lng": 102.3147917
+    }
+  },
+  {
+    "name": "RSUD Arga Makmur",
+    "province": "Bengkulu",
+    "telephone": [
+      "0737-521118"
+    ],
+    "fax": "",
+    "address": "Jaln Insinyur Soekarno 8, Arga Makmur 38611, Bengkulu, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -3.4422837,
+      "lng": 102.1913409
+    }
+  },
+  {
+    "name": "RSU Kabupaten Tangerang",
+    "province": "Banten",
+    "telephone": [
+      "021-5523507"
+    ],
+    "fax": "021-5527104",
+    "address": "Kabupaten Tangerang, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.25,
+      "lng": 106.58333
+    }
+  },
+  {
+    "name": "RSUD dr. Drajat Prawiranegara Serang",
+    "province": "Banten",
+    "telephone": [
+      "0254-208833"
+    ],
+    "fax": "",
+    "address": "Serang, Banten, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.1149,
+      "lng": 106.1502
+    }
+  },
+  {
+    "name": "RSUD Pangkalpinang",
+    "province": "Bangka Belitung",
+    "telephone": [
+      "0717-422693"
+    ],
+    "fax": "",
+    "address": "Jl. Soekarno - Hatta, Pangkalpinang 33684, Kepulauan Bangka Belitung, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -2.1435648,
+      "lng": 106.125743
+    }
+  },
+  {
+    "name": "RSUD Cut Meutia Lhokseumawe",
+    "province": "Aceh",
+    "telephone": [
+      "0645-46334",
+      "0645-43012"
+    ],
+    "fax": "0645-43012",
+    "address": "Lhokseumawe, Aceh, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 5.1801,
+      "lng": 97.1507
+    }
+  },
+  {
+    "name": "RSUD dr. Zainoel Abidin",
+    "province": "Aceh",
+    "telephone": [
+      "0651-34565",
+      "0651-22077",
+      "0651-28148"
+    ],
+    "fax": "",
+    "address": "Jalan Mohammad Daud Beureueh, Bandar Baru, Banda Aceh 23373, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 5.5642224,
+      "lng": 95.3371054
+    }
+  },
+  {
+    "name": "RSUD Dr. Sam Ratulangi Tondano",
+    "province": "Sulawesi Utara",
+    "telephone": [
+      "0431-321171"
+    ],
+    "fax": "",
+    "address": "Tondano, Sulawesi Utara, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 1.3054,
+      "lng": 124.91261
+    }
+  },
+  {
+    "name": "RSUD Kota Kotamobagu",
+    "province": "Sulawesi Utara",
+    "telephone": [
+      "0435-822816"
+    ],
+    "fax": "0435-822354",
+    "address": "Jalan D.C. Manoppo, Bungko 95719, Sulawesi Utara, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 0.7084274,
+      "lng": 124.3072643
+    }
+  },
+  {
+    "name": "RSUP Ratatotok Buyat",
+    "province": "Sulawesi Utara",
+    "telephone": [
+      "082188789000",
+      "Pelayanan 08114333000"
+    ],
+    "fax": "0431-123123",
+    "address": "Totokrata 95997, Sulawesi Utara, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 0.8697033,
+      "lng": 124.699473
+    }
+  },
+  {
+    "name": "RSUD Undata Palu",
+    "province": "Sulawesi Tengah",
+    "telephone": [
+      "0451-490-8020"
+    ],
+    "fax": "",
+    "address": "Jalan R.E. Martadinata, Tondo 94119, Sulawesi Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -0.8585727,
+      "lng": 119.8853982
+    }
+  },
+  {
+    "name": "RSUD Luwuk Banggai",
+    "province": "Sulawesi Tengah",
+    "telephone": [
+      "0461-21820"
+    ],
+    "fax": "",
+    "address": "Pelabuhan Feri Luwuk No.14, Luwuk 94711, Sulawesi Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -0.9340222,
+      "lng": 122.8219993
+    }
+  },
+  {
+    "name": "RSUD Kolonodale",
+    "province": "Sulawesi Tengah",
+    "telephone": [
+      "0465-21010"
+    ],
+    "fax": "",
+    "address": "Kolonodale, Sulawesi Tengah, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -1.9825,
+      "lng": 121.3364
+    }
+  },
+  {
+    "name": "RSUD Provinsi Sulawesi Barat",
+    "province": "Sulawesi Barat",
+    "telephone": [
+      "0426-2703259",
+      "2703260"
+    ],
+    "fax": "",
+    "address": "Sulawesi Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -2.5,
+      "lng": 119.3333
+    }
+  },
+  {
+    "name": "RSUD Prof. Dr. W. Z. Johannes Kupang",
+    "province": "Nusa Tenggara Timur",
+    "telephone": [
+      "0380-832892",
+      "0380-833614"
+    ],
+    "fax": "",
+    "address": "Kupang, Nusa Tenggara Timur, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -10.1718,
+      "lng": 123.6075
+    }
+  },
+  {
+    "name": "RSUD dr. T.C. Hillers Maumere",
+    "province": "Nusa Tenggara Timur",
+    "telephone": [
+      "0812-6115-3944",
+      "0382-21617"
+    ],
+    "fax": "",
+    "address": "Maumere, Nusa Tenggara Timur, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -8.6199,
+      "lng": 122.2111
+    }
+  },
+  {
+    "name": "RSUD Provinsi NTB",
+    "province": "Nusa Tenggara Barat",
+    "telephone": [
+      "0370-7502424",
+      "0370-7504288",
+      "0878-78283848"
+    ],
+    "fax": "",
+    "address": "Jalan Jaya Lengkara, Kel. Dasan Cermen, Kota Mataram 83127, Nusa Tenggara Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -8.6079937,
+      "lng": 116.1289241
+    }
+  },
+  {
+    "name": "RSUD Kota Mataram",
+    "province": "Nusa Tenggara Barat",
+    "telephone": [
+      "0370-640774"
+    ],
+    "fax": "0370-646928",
+    "address": "Jalan Satria Budi, Kel. Pagesangan Timur, Kota Mataram 83127, Nusa Tenggara Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -8.599958,
+      "lng": 116.1141051
+    }
+  },
+  {
+    "name": "RSUD dr. H. Soemarno Sosroatmodjo Tanjung Selor",
+    "province": "Kalimantan Utara",
+    "telephone": [
+      "0552-21292",
+      "0552-21118"
+    ],
+    "fax": "0552-22667",
+    "address": "Tanjung Selor, North Kalimantan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 2.83816,
+      "lng": 117.36578
+    }
+  },
+  {
+    "name": "RSU dr. R. Sudjono Selong",
+    "province": "Nusa Tenggara Barat",
+    "telephone": [
+      "0376-21118",
+      "0376-21415",
+      "0376-21683"
+    ],
+    "fax": "0376-21415",
+    "address": "Selong, Nusa Tenggara Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -8.6503,
+      "lng": 116.5318
+    }
+  },
+  {
+    "name": "RSUD Dr. Kanujoso Djatiwibowo",
+    "province": "Kalimantan Timur",
+    "telephone": [
+      "0542-873901"
+    ],
+    "fax": "",
+    "address": "Jalan M.T. Haryono, Balikpapan 76128, Kalimantan Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -1.2241851,
+      "lng": 116.8687816
+    }
+  },
+  {
+    "name": "RSUD Abdul Wahab Sjahranie",
+    "province": "Kalimantan Timur",
+    "telephone": [
+      "0541-738118",
+      "0541-744978",
+      "0541-738080"
+    ],
+    "fax": "0541-744988",
+    "address": "Jalan Trisari, Samarinda 75123, Kalimantan Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -0.4806765,
+      "lng": 117.1439385
+    }
+  },
+  {
+    "name": "RSUD Panglima Sebaya",
+    "province": "Kalimantan Timur",
+    "telephone": [
+      "0543-24563",
+      "0543-21363",
+      "0543-21118"
+    ],
+    "fax": "",
+    "address": "Jalan Gentung Temiang 2, Tepian Batang 76251, Kalimantan Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -1.8736912,
+      "lng": 116.1797172
+    }
+  },
+  {
+    "name": "RSUD Taman Husada Bontang",
+    "province": "Kalimantan Timur",
+    "telephone": [
+      "0548-22111",
+      "0548-21256",
+      "IGD 0548-23000",
+      "Ambulans 0811-5553-004"
+    ],
+    "fax": "0548-22111",
+    "address": "Jalan S. Parman, Bontang 75331, Kalimantan Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 0.1426508,
+      "lng": 117.4478277
+    }
+  },
+  {
+    "name": "RSUD dr. Murjani Sampit",
+    "province": "Kalimantan Tengah",
+    "telephone": [
+      "0531-21010"
+    ],
+    "fax": "",
+    "address": "Batu Berlian, Sampit 74322, Kalimantan Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -2.5428595,
+      "lng": 112.9478583
+    }
+  },
+  {
+    "name": "RSUD dr. Doris Sylvanus",
+    "province": "Kalimantan Tengah",
+    "telephone": [
+      "0536-21717",
+      "0536-3224695"
+    ],
+    "fax": "0536-3229194",
+    "address": "Jalan Tambun Bungai 4, Palangkaraya 73111, Kalimantan Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -2.2108753,
+      "lng": 113.9222272
+    }
+  },
+  {
+    "name": "RSUD Ade Mohammad Djoen Sintang",
+    "province": "Kalimantan Barat",
+    "telephone": [
+      "0565-212002",
+      "0565-22022",
+      "WA 0821-4450-9390"
+    ],
+    "fax": "0565-23691",
+    "address": "Sintang, Kalimantan Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 0.06667,
+      "lng": 111.5
+    }
+  },
+  {
+    "name": "RSUD Idaman Banjarbaru",
+    "province": "Kalimantan Selatan",
+    "telephone": [
+      "0511-6749696"
+    ],
+    "fax": "",
+    "address": "Bandjarbaru, Kalimantan Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -3.4406,
+      "lng": 114.8365
+    }
+  },
+  {
+    "name": "RSUD Ulin",
+    "province": "Kalimantan Selatan",
+    "telephone": [
+      "0511-3252180",
+      "0511-3252229"
+    ],
+    "fax": "05113252229",
+    "address": "Jalan Ahmad Yani 43, Banjarmasin 70233, Kalimantan Selatan, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -3.3222971,
+      "lng": 114.6007168
+    }
+  },
+  {
+    "name": "RSUD Sultan Imanuddin Pangkalan Bun",
+    "province": "Kalimantan Tengah",
+    "telephone": [
+      "0532-21404"
+    ],
+    "fax": "",
+    "address": "Kalimantan Tengah, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -2,
+      "lng": 113.5
+    }
+  },
+  {
+    "name": "RSUD dr. Abdul Azis",
+    "province": "Kalimantan Barat",
+    "telephone": [
+      "0562-631748",
+      "0562-631798"
+    ],
+    "fax": "",
+    "address": "Kalimantan Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 0,
+      "lng": 110.5
+    }
+  },
+  {
+    "name": "RSUD Dr. Soetomo",
+    "province": "Jawa Timur",
+    "telephone": [
+      "031-5501239",
+      "0813-5717-1962",
+      "031-5501078",
+      "031-5501111",
+      "IGD 031-5501239"
+    ],
+    "fax": "031-5022068",
+    "address": "Jawa Timur, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -7.7394,
+      "lng": 112.5099
+    }
+  },
+  {
+    "name": "RSUD dr. R. Koesma Tuban",
+    "province": "Jawa Timur",
+    "telephone": [
+      "0356-321010"
+    ],
+    "fax": "",
+    "address": "Tuban, Jawa Timur, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.8976,
+      "lng": 112.0649
+    }
+  },
+  {
+    "name": "RSUD Blambangan",
+    "province": "Jawa Timur",
+    "telephone": [
+      "0333-421118"
+    ],
+    "fax": "",
+    "address": "Jalan Letnan Kolonel Istiqlah 49, Banyuwangi 68415, Jawa Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -8.2085806,
+      "lng": 114.3658178
+    }
+  },
+  {
+    "name": "RSUD dr. Soedono Madiun",
+    "province": "Jawa Timur",
+    "telephone": [
+      "0351-454657"
+    ],
+    "fax": "",
+    "address": "Jalan Dokter Sutomo 59, Madiun 63117, Jawa Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.6266141,
+      "lng": 111.524461
+    }
+  },
+  {
+    "name": "RSUD dr. Saiful Anwar",
+    "province": "Jawa Timur",
+    "telephone": [
+      "0821-3967-2121",
+      "0341-362101"
+    ],
+    "fax": "0341-369384",
+    "address": "Jalan Belakang Rumah Sakit Umum, Malang 65111, Jawa Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.9742833,
+      "lng": 112.6320062
+    }
+  },
+  {
+    "name": "RSUD dr. Soebandi Jember",
+    "province": "Jawa Timur",
+    "telephone": [
+      "0331-487441",
+      "0823-0159-8557"
+    ],
+    "fax": "0331-487564",
+    "address": "Jalan Dokter Soebandi, Jember 68111, Jawa Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -8.1512454,
+      "lng": 113.7158433
+    }
+  },
+  {
+    "name": "RSUD Kardinah Tegal",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0283-350377"
+    ],
+    "fax": "",
+    "address": "Jalan KS. Tubun, Tegal 52124, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.8847861,
+      "lng": 109.1348901
+    }
+  },
+  {
+    "name": "RSUP dr. Soeradji Tirtonegoro",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0272-321020",
+      "0272-367381",
+      "0272-326060"
+    ],
+    "fax": "0272-321104",
+    "address": "Jalan Jogja - Solo 01, Karangdukuh 57424, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.7146877,
+      "lng": 110.5882974
+    }
+  },
+  {
+    "name": "RS Paru dr. Ario Wirawan",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0298-326130"
+    ],
+    "fax": "0298-322703",
+    "address": "Jalan Hasanuddin 806, Salatiga 50721, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.3499737,
+      "lng": 110.4893445
+    }
+  },
+  {
+    "name": "RSUP Dr. Sardjito",
+    "province": "DI Yogyakarta",
+    "telephone": [
+      "0274-631190",
+      "0274-587333",
+      "0274-583613"
+    ],
+    "fax": "0274-565639",
+    "address": "Jalan Kesehatan, 55222, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.768452,
+      "lng": 110.3728104
+    }
+  },
+  {
+    "name": "RSUD Panembahan Senopati",
+    "province": "DI Yogyakarta",
+    "telephone": [
+      "0274-367381",
+      "0274--367386",
+      "0274-2810721",
+      "0811-2777-507"
+    ],
+    "fax": "0274-367506",
+    "address": "Jalan Dokter Wahidin Sudiro Husodo, Trirenggo 55714, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.8925691,
+      "lng": 110.3382273
+    }
+  },
+  {
+    "name": "RSUD Wates",
+    "province": "DI Yogyakarta",
+    "telephone": [
+      "0274-773169"
+    ],
+    "fax": "",
+    "address": "Jalan Tentara Pelajar 5, Wates 55651, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.8592784,
+      "lng": 110.1475099
+    }
+  },
+  {
+    "name": "BRSU Tabanan",
+    "province": "Bali",
+    "telephone": [
+      "0361-811027"
+    ],
+    "fax": "0361-811202",
+    "address": "Tabanan, Bali, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -8.5413,
+      "lng": 115.12522
+    }
+  },
+  {
+    "name": "RSUD Sanjiwani Gianyar",
+    "province": "Bali",
+    "telephone": [
+      "0361-943524",
+      "0361-943049",
+      "0361-943020"
+    ],
+    "fax": "",
+    "address": "Gianyar, Bali, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -8.5435,
+      "lng": 115.3272
+    }
+  },
+  {
+    "name": "RSUD Kab. Buleleng",
+    "province": "Bali",
+    "telephone": [
+      "0362-22046"
+    ],
+    "fax": "0362-29629",
+    "address": "Kecamatan Buleleng, Bali, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -8.1189,
+      "lng": 115.0887
+    }
+  },
+  {
+    "name": "RSAD Tk. II Pelamonia",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0811-1782-3995",
+      "0411-7402332"
+    ],
+    "fax": "0411-3623434",
+    "address": "Sulawesi Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -4.33333,
+      "lng": 120.25
+    }
+  },
+  {
+    "name": "RSUD Manokwari",
+    "province": "Papua Barat",
+    "telephone": [
+      "0986-215133",
+      "0986-211440"
+    ],
+    "fax": "",
+    "address": "Jalan Siliwangi 1, Manokwari 98312, Papua Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -0.8708591,
+      "lng": 134.0787517
+    }
+  },
+  {
+    "name": "RSUD Mokopido Tolitoli",
+    "province": "Sulawesi Tengah",
+    "telephone": [
+      "0453-21300",
+      "0453-21301"
+    ],
+    "fax": "0453-21301",
+    "address": "Tolitoli, Sulawesi Tengah, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 1.0392,
+      "lng": 120.8169
+    }
+  },
+  {
+    "name": "RSUD Tarutung",
+    "province": "Sumatera Utara",
+    "telephone": [
+      "0633-21303"
+    ],
+    "fax": "",
+    "address": "Tarutung, Sumatera Utara, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 2.01467,
+      "lng": 98.96548
+    }
+  },
+  {
+    "name": "RSU Kabanjahe",
+    "province": "Sumatera Utara",
+    "telephone": [
+      "0628-20012"
+    ],
+    "fax": "",
+    "address": "Kabanjahe, Sumatera Utara, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 3.1001,
+      "lng": 98.4908
+    }
+  },
+  {
+    "name": "RSUP dr. Rivai Abdullah Palembang",
+    "province": "Sumatera Selatan",
+    "telephone": [
+      "0711-753-7201"
+    ],
+    "fax": "0711-753 7204",
+    "address": "Palembang, Sumatera Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -2.91673,
+      "lng": 104.7458
+    }
+  },
+  {
+    "name": "RSUD Siti Aisyah Lubuklinggau",
+    "province": "Sumatera Selatan",
+    "telephone": [
+      "0733-452739",
+      "0733-452739"
+    ],
+    "fax": "0733-452776",
+    "address": "Lubuklinggau, Sumatera Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -3.2945,
+      "lng": 102.8614
+    }
+  },
+  {
+    "name": "RSUP Prof. Dr. R. D. Kandou",
+    "province": "Sulawesi Utara",
+    "telephone": [
+      "0431-8383058"
+    ],
+    "fax": "0431-838204",
+    "address": "Sulawesi Utara, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 1.25,
+      "lng": 124.83333
+    }
+  },
+  {
+    "name": "RSUD Dr. Achmad Mochtar",
+    "province": "Sumatera Barat",
+    "telephone": [
+      "0752-21720",
+      "0752-21492",
+      "0752-21831"
+    ],
+    "fax": "0752-21322",
+    "address": "Jalan Yos Sudarso, Bukittinggi 26115, Sumatera Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -0.2996437,
+      "lng": 100.3657846
+    }
+  },
+  {
+    "name": "RSUD Padang Sidempuan",
+    "province": "Sumatera Utara",
+    "telephone": [
+      "0634-21780"
+    ],
+    "fax": "0634-21251",
+    "address": "Sidempuan, Sumatera Utara, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 2.25011,
+      "lng": 98.73449
+    }
+  },
+  {
+    "name": "RSUD Sorong",
+    "province": "Papua Barat",
+    "telephone": [
+      "0951-321850"
+    ],
+    "fax": "",
+    "address": "Sorong, Papua Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -0.87956,
+      "lng": 131.26104
+    }
+  },
+  {
+    "name": "RSUD Bahteramas",
+    "province": "Sulawesi Tenggara",
+    "telephone": [
+      "0822-9253-6768",
+      "0401-319-5611",
+      "0852-87187121"
+    ],
+    "fax": "",
+    "address": "Sulawesi Tenggara, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -4.3935,
+      "lng": 122.2149
+    }
+  },
+  {
+    "name": "RSUD Andi Makkasau",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0852-9978-7999",
+      "0401-27643"
+    ],
+    "fax": "",
+    "address": "Jalan Jenderal Sudirman 9, Cappagalung 91122, Sulawesi Selatan, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -4.0351376,
+      "lng": 119.634182
+    }
+  },
+  {
+    "name": "RSUD Lakipadada",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0432-22264"
+    ],
+    "fax": "",
+    "address": "Sulawesi Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -4.33333,
+      "lng": 120.25
+    }
+  },
+  {
+    "name": "RS Islam Faisal",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0411-871942"
+    ],
+    "fax": "",
+    "address": "Jalan R.S. Faisal XIII, Makassar 90111, Sulawesi Selatan, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -5.1629605,
+      "lng": 119.4325513
+    }
+  },
+  {
+    "name": "RS Akademis Jaury Jusuf Putra",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0411-317343"
+    ],
+    "fax": "",
+    "address": "Sulawesi Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -4.33333,
+      "lng": 120.25
+    }
+  },
+  {
+    "name": "RSUD Sinjai",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0482-21132"
+    ],
+    "fax": "",
+    "address": "Sinjai, Sulawesi Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -5.1241,
+      "lng": 120.253
+    }
+  },
+  {
+    "name": "RS Universitas Hasanuddin",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0411-591331",
+      "cust.care 0411-591331 ext 333"
+    ],
+    "fax": "",
+    "address": "Jl. Perintis Kemerdekaan No.KM 10, Tamalanrea Indah, Kec. Tamalanrea, Kota Makassar, Sulawesi Selatan 90245",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -5.13329,
+      "lang": 119.494376
+    }
+  },
+  {
+    "name": "RSUD Labuang Baji",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0411-872120",
+      "0411-873482"
+    ],
+    "fax": "",
+    "address": "Sulawesi Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -4.33333,
+      "lng": 120.25
+    }
+  },
+  {
+    "name": "RSUD Anutapura Palu",
+    "province": "Sulawesi Tengah",
+    "telephone": [
+      "0451-460570"
+    ],
+    "fax": "",
+    "address": "Palu, Sulawesi Tengah, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -0.8917,
+      "lng": 119.8707
+    }
+  },
+  {
+    "name": "RS dr. Tadjuddin Chalid Makassar",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0411-512902"
+    ],
+    "fax": "",
+    "address": "Makassar, Sulawesi Selatan, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -5.14,
+      "lng": 119.4221
+    }
+  },
+  {
+    "name": "RSUP Dr. Wahidin Sudirohusodo Makassar",
+    "province": "Sulawesi Selatan",
+    "telephone": [
+      "0411-592222",
+      "0411-581773",
+      "0411-583333 ext 8229"
+    ],
+    "fax": "0411-587676",
+    "address": "Jalan Raya Kampus Unhas, Makassar 90245, Sulawesi Selatan, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -5.1350347,
+      "lng": 119.4934236
+    }
+  },
+  {
+    "name": "RSUD Kabupaten Nabire",
+    "province": "Papua",
+    "telephone": [
+      "0984-21845"
+    ],
+    "fax": "",
+    "address": "Kabupaten Nabire, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -3.54016,
+      "lng": 135.55511
+    }
+  },
+  {
+    "name": "RSUD Jayapura",
+    "province": "Papua",
+    "telephone": [
+      "0967-533616",
+      "0967-533781"
+    ],
+    "fax": "0967-533781",
+    "address": "Jalan Dokter Sam Ratulangi 1, Imbi, Jayapura 99111, Papua, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -2.534619,
+      "lng": 140.7101273
+    }
+  },
+  {
+    "name": "RSUD Komodo",
+    "province": "Nusa Tenggara Timur",
+    "telephone": [
+      "0812-373-12165",
+      "0813-3705-5250",
+      "0385-2443240"
+    ],
+    "fax": "",
+    "address": "Trans Flores, Palembang 76554, Nusa Tenggara Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -8.5412162,
+      "lng": 119.896194
+    }
+  },
+  {
+    "name": "RSUD Praya",
+    "province": "Nusa Tenggara Barat",
+    "telephone": [
+      "0370-6635050",
+      "0370-654007",
+      "0370-653007"
+    ],
+    "fax": "0370-653082",
+    "address": "Jalan Haji Lalu Hasim, BTN. Bonter, Kantor Desa Bunut Baok 83511, Nusa Tenggara Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -8.7025298,
+      "lng": 116.2953746
+    }
+  },
+  {
+    "name": "RSUD Bima",
+    "province": "Nusa Tenggara Barat",
+    "telephone": [
+      "0374-43142"
+    ],
+    "fax": "",
+    "address": "Jalan Langgsat, KELURAHAN RABANGODU UTARA 84113, Nusa Tenggara Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -8.4737059,
+      "lng": 118.7613298
+    }
+  },
+  {
+    "name": "RSUD Sofifi",
+    "province": "Maluku Utara",
+    "telephone": [],
+    "fax": "",
+    "address": "Jalan Kapitan Patimurra, BTN, Ternate 97715, Maluku Utara, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 0.7821377,
+      "lng": 127.3753387
+    }
+  },
+  {
+    "name": "RSUD Tarakan",
+    "province": "Kalimantan Utara",
+    "telephone": [
+      "0551-21166",
+      "Tim Satgas Pengaduan 0812-5409-118",
+      "IGD/Ambulan 0551-21118"
+    ],
+    "fax": "0551-21720",
+    "address": "Gang Teratai, Tarakan 77112, Kalimantan Utara, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 3.3178982,
+      "lng": 117.6046274
+    }
+  },
+  {
+    "name": "RSUD Merauke",
+    "province": "Papua",
+    "telephone": [
+      "0971-321124",
+      "0971-321125"
+    ],
+    "fax": "",
+    "address": "Merauke, Papua, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -8.49584,
+      "lng": 140.3948
+    }
+  },
+  {
+    "name": "RSU dr. M. Haulussy Ambon",
+    "province": "Maluku",
+    "telephone": [
+      "0911-343002",
+      "0911-344871"
+    ],
+    "fax": "0911-353595",
+    "address": "Ambon, Maluku, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -3.69543,
+      "lng": 128.18141
+    }
+  },
+  {
+    "name": "RSUP dr. J. Leimena",
+    "province": "Maluku",
+    "telephone": [],
+    "fax": "",
+    "address": "Jalan Insinyur M. Putuhenna, Pandan Kasturi 97234, Maluku, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -3.66132,
+      "lng": 128.1861828
+    }
+  },
+  {
+    "name": "RSD Mayjend. H. M. Ryacudu Kotabumi",
+    "province": "Lampung",
+    "telephone": [
+      "0724-22095",
+      "0724-21035"
+    ],
+    "fax": "",
+    "address": "Kotabumi, Lampung, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -4.82505,
+      "lng": 104.8817
+    }
+  },
+  {
+    "name": "RSBP Batam",
+    "province": "Kepulauan Riau",
+    "telephone": [
+      "0778-322121",
+      "0778-322046"
+    ],
+    "fax": "",
+    "address": "Jl.Dr. Cipto Mangunkusumo, Batam 20444, Kepulauan Riau, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 1.1301305,
+      "lng": 103.9312817
+    }
+  },
+  {
+    "name": "RSUD dr. H. Bob Bazar, S.K.M., Kalianda",
+    "province": "Lampung",
+    "telephone": [
+      "0727-322160",
+      "0727-322159"
+    ],
+    "fax": "",
+    "address": "Kalianda, Lampung, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -5.73805,
+      "lng": 105.5916
+    }
+  },
+  {
+    "name": "RSUD Muhammad Sani Karimun",
+    "province": "Kepulauan Riau",
+    "telephone": [
+      "0777-327808",
+      "0778-327808"
+    ],
+    "fax": "",
+    "address": "Jl. Pertambangan, Sungai Lakam 29663, Kepulauan Riau, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": 1.0134681,
+      "lng": 103.4135435
+    }
+  },
+  {
+    "name": "RSUD Aji Muhammad Parikesit",
+    "province": "Kalimantan Timur",
+    "telephone": [
+      "0541-661013",
+      "0541-661015"
+    ],
+    "fax": "0541-661013",
+    "address": "Jalan Lingkar Rumah Sakit 1, Teluk Dalam 75572, Kalimantan Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -0.4384379,
+      "lng": 117.0136922
+    }
+  },
+  {
+    "name": "RSUD H. Boejasin Pelaihari",
+    "province": "Kalimantan Selatan",
+    "telephone": [
+      "0512-21082",
+      "0512-21083"
+    ],
+    "fax": "0512-21082",
+    "address": "Jalan Haji Boejasin, RW. 07, Kel. Angsau, Angsau 70814, Kalimantan Selatan, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -3.7992558,
+      "lng": 114.7785367
+    }
+  },
+  {
+    "name": "RSUD dr. Agoesdjam Ketapang",
+    "province": "Kalimantan Barat",
+    "telephone": [
+      "0534-3037239"
+    ],
+    "fax": "0534-3037239",
+    "address": "Jalan Gatot Subroto, Paya Kumang 78851, Kalimantan Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -1.8319955,
+      "lng": 109.967663
+    }
+  },
+  {
+    "name": "RSU dr. Sudarso Pontianak",
+    "province": "Kalimantan Barat",
+    "telephone": [
+      "0561-737701",
+      "0561-732077",
+      "SMS 0821-5166-3377"
+    ],
+    "fax": "0561-732077",
+    "address": "Pontianak, Kalimantan Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -0.03109,
+      "lng": 109.32199
+    }
+  },
+  {
+    "name": "RSUD Dr. R. Sosodoro Djatikoesoemo",
+    "province": "Jawa Timur",
+    "telephone": [
+      "0811-3224-972",
+      "0353-3412133",
+      "0353-34121"
+    ],
+    "fax": "0353-3412133",
+    "address": "Jalan Veteran 36, Ngrowo 62115, Jawa Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.1601152,
+      "lng": 111.8999913
+    }
+  },
+  {
+    "name": "RSUD dr. Iskak Tulungagung",
+    "province": "Jawa Timur",
+    "telephone": [
+      "0355-322609"
+    ],
+    "fax": "",
+    "address": "Jalan Dokter Wahidin Sudirohusodo, Kedungwaru, Ringinpitu 66223, Jawa Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -8.0540317,
+      "lng": 111.9181394
+    }
+  },
+  {
+    "name": "RSUD Pare Kediri",
+    "province": "Jawa Timur",
+    "telephone": [
+      "0354-391718",
+      "0354-391169"
+    ],
+    "fax": "0354-391833",
+    "address": "Jalan Pahlawan Kusuma Bangsa 1, Tulungrejo 64213, Jawa Timur, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.7598886,
+      "lng": 112.1758534
+    }
+  },
+  {
+    "name": "RSUD Tidar",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0293-363636",
+      "0293-362260"
+    ],
+    "fax": "0293-368354",
+    "address": "Jalan Tidar 30A, Magelang 56125, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.4851506,
+      "lng": 110.2181475
+    }
+  },
+  {
+    "name": "RSU Prof. Dr. Margono Soekarjo",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0281-632708"
+    ],
+    "fax": "0281-631015",
+    "address": "Jawa Tengah, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -7.5,
+      "lng": 110
+    }
+  },
+  {
+    "name": "RSUD Tugurejo",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "024-7605378",
+      "024-7605297"
+    ],
+    "fax": "024-7604398",
+    "address": "Tugurejo, Jawa Tengah, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -7.65833,
+      "lng": 110.94917
+    }
+  },
+  {
+    "name": "RSUD dr. Soeselo",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0283-491016",
+      "0283-491761",
+      "0283-491430"
+    ],
+    "fax": "0283-491016",
+    "address": "Dokter Sutomo 63, Slawi Wetan 52419, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.993776,
+      "lng": 109.137683
+    }
+  },
+  {
+    "name": "RSAL Dr. Mintoharjo",
+    "province": "DKI Jakarta",
+    "telephone": [
+      "021-5703081",
+      "5703085",
+      "021-5732036"
+    ],
+    "fax": "021-5711997",
+    "address": "Jakarta, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.21462,
+      "lng": 106.84513
+    }
+  },
+  {
+    "name": "RSUD Prof. Dr. H. Aloei Saboe Kota Gorontalo",
+    "province": "Gorontalo",
+    "telephone": [
+      "0435-821924",
+      "0812-431-5555",
+      "IGD 0852-9820-8997"
+    ],
+    "fax": "0435-822150",
+    "address": "Kotamadya Gorontalo, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 0.55,
+      "lng": 123.05
+    }
+  },
+  {
+    "name": "RS Paru Dr. M. Goenawan Partowidigdo",
+    "province": "Jawa Barat",
+    "telephone": [
+      "0251-8253629",
+      "0251-8253630"
+    ],
+    "fax": "0251-8257663",
+    "address": "Jalan Raya Puncak, Cisarua 16750, Jawa Barat, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.6883853,
+      "lng": 106.9395411
+    }
+  },
+  {
+    "name": "RSUD R. Syamsudin, S.H.",
+    "province": "Jawa Barat",
+    "telephone": [
+      "0266-225180"
+    ],
+    "fax": "0266-212988",
+    "address": "Jawa Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.75,
+      "lng": 107.5
+    }
+  },
+  {
+    "name": "RSUP Dr. Hasan Sadikin Bandung",
+    "province": "Jawa Barat",
+    "telephone": [
+      "022-2551111",
+      "022-2034953",
+      "022-2034955"
+    ],
+    "fax": "",
+    "address": "Bandung, Jawa Barat, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.90389,
+      "lng": 107.61861
+    }
+  },
+  {
+    "name": "RS Bhayangkara Tk. I R. Said Sukanto",
+    "province": "DKI Jakarta",
+    "telephone": [
+      "021-8093288",
+      "021-8090559"
+    ],
+    "fax": "021-8094005",
+    "address": "Jakarta, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -6.21462,
+      "lng": 106.84513
+    }
+  },
+  {
+    "name": "RSUD Wonosari",
+    "province": "DI Yogyakarta",
+    "telephone": [
+      "0274-391007",
+      "0274-391288"
+    ],
+    "fax": "0274-393437",
+    "address": "Jalan Taman Bakti, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -7.9619483,
+      "lng": 110.6039198
+    }
+  },
+  {
+    "name": "RSUD Hasanuddin Damrah Manna",
+    "province": "Bengkulu",
+    "telephone": [
+      "0739-21118",
+      "0739-21012",
+      "0853-8163-7684"
+    ],
+    "fax": "0739-22870",
+    "address": "Jalan Raya Padang Panjang, Padang Sialang 38515, Bengkulu, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -4.4419163,
+      "lng": 102.8967976
+    }
+  },
+  {
+    "name": "RSUD Kabupaten Belitung Timur",
+    "province": "Bangka Belitung",
+    "telephone": [
+      "0719-91738"
+    ],
+    "fax": "",
+    "address": "East Belitung Regency, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -2.9627,
+      "lng": 108.15216
+    }
+  },
+  {
+    "name": "RSUP Sanglah",
+    "province": "Bali",
+    "telephone": [
+      "0361-227912",
+      "0361-227915"
+    ],
+    "fax": "",
+    "address": "Sanglah, Bali, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": -8.6777,
+      "lng": 115.2161
+    }
+  },
+  {
+    "name": "RSUD Dr. H. Chasan Boesoeri Ternate",
+    "province": "Maluku Utara",
+    "telephone": [
+      "0921-3121281",
+      "0921-3127159",
+      "IGD 0821-9539-3484",
+      "SMS 0821-90047400"
+    ],
+    "fax": "",
+    "address": "Ternate, Maluku Utara, Indonesia",
+    "isHospital": false,
+    "geolocation": {
+      "lat": 0.79065,
+      "lng": 127.38424
+    }
+  },
+  {
+    "name": "RSUD Kraton Pekalongan",
+    "province": "Jawa Tengah",
+    "telephone": [
+      "0285-421621",
+      "0285-423523",
+      "SMS 0815-6941-008"
+    ],
+    "fax": "",
+    "address": "Jalan Veteran Jl. Veteran No. 31, Dukuh, Pekalongan Utara, Kota Pekalongan, Jawa Tengah, Pekalongan 51117, Jawa Tengah, Indonesia",
+    "isHospital": true,
+    "geolocation": {
+      "lat": -6.8813966,
+      "lng": 109.667363
+    }
+  }
+]

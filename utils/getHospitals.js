@@ -2,6 +2,8 @@ import parser from 'fast-html-parser';
 import retry from '@vercel/fetch-retry';
 import nodeFetch from 'node-fetch';
 import opencage from 'opencage-api-client';
+import fs from 'fs';
+import path from 'path';
 
 import hospitals from './hospitals.json';
 
@@ -13,7 +15,6 @@ export default async function getHospitals() {
     const root = parser.parse(rawData);
     const rows = root.querySelectorAll('tbody tr');
     const result = [];
-
     for (const row of rows) {
       const tds = row.querySelectorAll('td');
       const name = tds[0].text,
@@ -22,7 +23,6 @@ export default async function getHospitals() {
         fax = tds[3].text.replace(' ', '-'),
         address = tds[4].text,
         additionalInfo = await fetchHospitals(name, province);
-      console.lo;
       result.push({
         name,
         province,
@@ -32,7 +32,15 @@ export default async function getHospitals() {
         ...additionalInfo
       });
     }
+    // for development purpose
+    const filepath = path.join('./', 'utils', 'saved-hospitals.json');
+    fs.writeFile(filepath, JSON.stringify(result, null, 2), err => {
+      if (err) {
+        console.log('there was an error: ', err);
+      }
 
+      console.log('success created');
+    });
     return result;
   } catch (error) {
     console.log('ah there was an error: ', error);
