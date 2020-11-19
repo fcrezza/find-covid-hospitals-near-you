@@ -1,9 +1,7 @@
-html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.7;
 }
 
 a {
@@ -11,6 +9,21 @@ a {
   text-decoration: none;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.swal-button--confirm {
+  background-color: #ececec;
+  color: #222;
+}
+
+.swal-button--confirm:not([disabled]):hover,
+.swal-button--confirm:not([disabled]):focus,
+.swal-button--confirm:not([disabled]):active {
+  background-color: #e8e5e5;
 }
