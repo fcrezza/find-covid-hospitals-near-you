@@ -11,7 +11,7 @@ L.Icon.Default.mergeOptions({
 
 const position = [-6.2, 106.816666];
 
-function Map({data}) {
+function Map({data, currentPosition}) {
   return (
     <MapContainer
       style={{width: '100vw', height: '100vh'}}
@@ -23,7 +23,13 @@ function Map({data}) {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-
+      {currentPosition ? (
+        <Marker position={Object.values(currentPosition)}>
+          <Popup>
+            <h3>Posisi saya Sekarang</h3>
+          </Popup>
+        </Marker>
+      ) : null}
       {data.map((hospital, idx) => {
         if (hospital.isHospital) {
           return (
