@@ -95,4 +95,9 @@ function transformData(data) {
       geolocation: geometry
     };
   }
+
+  return {
+    isHospital: false,
+    geolocation: null
+  };
 }

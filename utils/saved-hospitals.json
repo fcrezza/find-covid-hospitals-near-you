@@ -208,7 +208,9 @@
     "province": "DKI Jakarta",
     "telephone": ["IGD 021-22472222 ext 1", "021-4891708"],
     "fax": "021-4711222, 021 4890778",
-    "address": "Jl. Persahabatan Raya No. 1, Pisangan Timur, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta"
+    "address": "Jl. Persahabatan Raya No. 1, Pisangan Timur, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta",
+    "isHospital": false,
+    "geolocation": null
   },
   {
     "name": "RSUD Raja Ahmad Tabib",
@@ -1200,7 +1202,7 @@
     "isHospital": true,
     "geolocation": {
       "lat": -5.13329,
-      "lang": 119.494376
+      "lng": 119.494376
     }
   },
   {
@@ -1247,8 +1249,8 @@
     "address": "Jalan Raya Kampus Unhas, Makassar 90245, Sulawesi Selatan, Indonesia",
     "isHospital": true,
     "geolocation": {
-      "lat": -5.1350347,
-      "lng": 119.4934236
+      "lat": -5.1345365,
+      "lng": 119.4956302
     }
   },
   {

@@ -17,15 +17,16 @@ export default function Home() {
   let filteredHospitals;
 
   if (currentPosition) {
-    console.log(currentPosition);
     filteredHospitals = hospitals.filter(hospital => {
-      if (hospital.isHospital) {
+      // if (hospital.isHospital) {
+      if (hospital.geolocation) {
         const distance = convertDistance(
           getDistance(currentPosition.geolocation, hospital.geolocation, 0.01),
           'km'
         );
         return distance <= 50;
       }
+      // }
     });
   } else {
     filteredHospitals = hospitals;
@@ -115,10 +116,9 @@ export default function Home() {
 
 // export async function getStaticProps() {
 //   const hospitals = await getHospitals();
-//   console.log(hospitals);
 //   return {
 //     props: {
-//       data: hospitals
+//       hospitals
 //     }
 //   };
 // }
