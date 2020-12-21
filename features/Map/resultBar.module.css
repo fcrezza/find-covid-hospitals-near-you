@@ -1,0 +1,62 @@
+.resultBarContainer {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 450px;
+  z-index: 400;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: 0.3s transform;
+}
+
+.resultBarCollapse {
+  transform: translateX(450px);
+}
+
+.resultItemContainer {
+  overflow-y: auto;
+  height: 100%;
+  padding-bottom: 80px;
+  margin-top: 20px;
+}
+
+.collapseButton {
+  border: 0;
+  background-color: #f8f8f8;
+  border: 1px solid #cdcdcd;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 5%;
+  left: -35px;
+}
+
+.resultItem {
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  padding: 1rem;
+}
+
+.resultItem:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.resultItem:hover {
+  background-color: #f3f3f3;
+}
+
+.resultTitle {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0 0 12px;
+}
+
+.resultAttribute {
+  font-size: 1rem;
+  color: #444;
+  margin: 0 0 12px;
+}

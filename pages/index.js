@@ -5,32 +5,53 @@ import swal from '@sweetalert/with-react';
 import opencage from 'opencage-api-client';
 import {getDistance, convertDistance} from 'geolib';
 
+// this should be implemented
 // import getHospitals from '../utils/getHospitals';
 import Alert from '../components/Alert';
+// this import for development only
 import hospitals from '../utils/saved-hospitals.json';
-const Map = dynamic(() => import('../components/Map'), {
+const Map = dynamic(() => import('../features/Map/Map'), {
   ssr: false
 });
 
 export default function Home() {
   const [currentPosition, setCurrentPosition] = React.useState(null);
+  /**
+   * distance in km value.
+   * distance can be changed from user input.
+   * default distance is 50km.
+   */
+  const [distance, setDistance] = React.useState(50);
   let filteredHospitals;
 
+  // implement divide and conquer algorithm in here.
   if (currentPosition) {
     filteredHospitals = hospitals.filter(hospital => {
       // if (hospital.isHospital) {
       if (hospital.geolocation) {
-        const distance = convertDistance(
+        const distanceFromCurrentLocation = convertDistance(
           getDistance(currentPosition.geolocation, hospital.geolocation, 0.01),
           'km'
         );
-        return distance <= 50;
+        return distanceFromCurrentLocation <= distance;
       }
       // }
     });
   } else {
     filteredHospitals = hospitals;
   }
+
+  const onChangeDistance = e => {
+    setDistance(e.target.value);
+  };
+
+  const coordinateCollection = filteredHospitals
+    .map(hospital => hospital.isHospital && Object.values(hospital.geolocation))
+    .filter(Boolean);
+  const bounds = currentPosition && [
+    Object.values(currentPosition.geolocation),
+    ...coordinateCollection
+  ];
 
   const showAlert = ({title, text}) => {
     return new Promise(resolve => {
@@ -108,7 +129,10 @@ export default function Home() {
       </Head>
       <Map
         data={filteredHospitals}
-        currentPosition={currentPosition?.geolocation}
+        currentPosition={currentPosition}
+        bounds={bounds}
+        distance={distance}
+        onChangeDistance={onChangeDistance}
       />
     </div>
   );
