@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import {useMap} from 'react-leaflet';
 
-import Search from '../Search';
+import Search from '../search';
 import styles from './resultBar.module.css';
 import ResultItem from './ResultItem';
 

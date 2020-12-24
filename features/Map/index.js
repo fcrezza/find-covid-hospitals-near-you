@@ -1,10 +1,10 @@
 import React from 'react';
 import L from 'leaflet';
 import classNames from 'classnames';
-import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
+import {MapContainer, Marker, Popup} from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
-import ResultBar from '../Result/ResultBar';
+import Result from '../result';
 import PopupContent from './PopupContent';
 import styles from './map.module.css';
 
@@ -117,7 +117,7 @@ function Map(props) {
         whenReady={onMapReady}
       >
         {currentPosition && (
-          <ResultBar
+          <Result
             nearestHospitals={nearestHospitals}
             getCurrentPosition={getCurrentPosition}
             markersRef={markersRef}

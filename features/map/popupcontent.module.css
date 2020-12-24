@@ -1,0 +1,17 @@
+.distance {
+  font-size: 0.8rem;
+  margin: 0 0 12px !important;
+  color: #444;
+}
+
+.name {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0 0 12px !important;
+}
+
+.address {
+  color: #444;
+  font-size: 0.9rem;
+  margin: 0 !important;
+}

@@ -10,7 +10,7 @@ import Alert from '../components/Alert';
 import sortHospitals from '../utils/sortHospitals';
 import findNearestHospitals from '../utils/findNearestHospitals';
 
-const Map = dynamic(() => import('../features/Map/Map'), {
+const Map = dynamic(() => import('../features/map'), {
   ssr: false
 });
 
