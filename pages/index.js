@@ -25,21 +25,16 @@ export default function Home() {
    */
   const [distance, setDistance] = React.useState(50);
 
-  const showAlert = ({title, text}) => {
-    return new Promise(resolve => {
-      swal({
-        button: 'Ya, saya mengerti',
-        content: <Alert title={title} text={text} />
-      }).then(resolve);
-    });
-  };
-
   const error = () => {
-    showAlert({
-      title: 'LOKASI TIDAK TERJANGKAU',
-      text:
-        'Kami tidak dapat bisa menjangkau lokasi anda saat ini, pastikan anda telah mengeklik "Izinkan/Allow" untuk kami dapat mengakses lokasi anda saat ini.'
-    });
+    swal({
+      button: 'Coba lagi',
+      content: (
+        <Alert
+          title="LOKASI TIDAK TERJANGKAU"
+          text='Kami tidak dapat bisa menjangkau lokasi anda saat ini, pastikan anda telah mengeklik "Izinkan/Allow" untuk kami dapat mengakses lokasi anda saat ini.'
+        />
+      )
+    }).then(() => location.reload());
   };
 
   const success = position => {
@@ -69,10 +64,14 @@ export default function Home() {
     if ('geolocation' in navigator) {
       navigator.geolocation.getCurrentPosition(success, error);
     } else {
-      showAlert({
-        title: 'FITUR TIDAK DIDUKUNG',
-        text:
-          'Fitur geolocation tidak didukung oleh browser anda, coba buka aplikasi menggunakan browser versi terbaru atau tetap lanjutkan menggunakan aplikasi dengan mencari rumah sakit rujukan melalui kolom pencarian'
+      swal({
+        button: 'Ya, saya mengerti',
+        content: (
+          <Alert
+            title="FITUR TIDAK DIDUKUNG"
+            text="Fitur geolocation tidak didukung oleh browser anda, coba buka aplikasi menggunakan browser versi terbaru atau tetap lanjutkan menggunakan aplikasi dengan mencari rumah sakit rujukan melalui kolom pencarian"
+          />
+        )
       });
     }
   };
@@ -85,10 +84,14 @@ export default function Home() {
     const init = async () => {
       const isVisited = Boolean(localStorage.getItem('isVisited'));
       if (!isVisited) {
-        await showAlert({
-          title: 'PERHATIAN',
-          text:
-            'Aplikasi ini membutuhkan akses lokasi anda untuk menentukan rumah sakit rujukan yang dekat dengan lokasi anda, tekan "Izinkan/Allow" jika ingin langsung mengetahui lokasi rumah sakit rujukan yang berada didekat anda. Anda juga bisa mengubah radius jangkauan, dan melakukan pencarian rumah sakit rujukan melalui kolom pencarian.'
+        await swal({
+          button: 'Ya, saya mengerti',
+          content: (
+            <Alert
+              title="PERHATIAN"
+              text='Aplikasi ini membutuhkan akses lokasi anda untuk menentukan rumah sakit rujukan yang dekat dengan lokasi anda, tekan "Izinkan/Allow" jika ingin langsung mengetahui lokasi rumah sakit rujukan yang berada didekat anda. Anda juga bisa mengubah radius jangkauan, dan melakukan pencarian rumah sakit rujukan melalui kolom pencarian.'
+            />
+          )
         });
         localStorage.setItem('isVisited', '1');
       }
