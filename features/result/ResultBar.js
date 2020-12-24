@@ -1,12 +1,22 @@
 import React from 'react';
 import classNames from 'classnames';
+import {useMap} from 'react-leaflet';
 
+import Search from '../Search';
 import styles from './resultBar.module.css';
-import Search from './Search';
+import ResultItem from './ResultItem';
 
-function ResultBar({data, mapRef, onChangeDistance, distance}) {
+function ResultBar(props) {
   const [isCollapse, setCollapseState] = React.useState(false);
   const [isOverElement, setIsOverElement] = React.useState(false);
+  const map = useMap();
+  const {
+    nearestHospitals,
+    markersRef,
+    onChangeDistance,
+    distance,
+    getCurrentPosition
+  } = props;
 
   const onCollapseButtonClick = () => {
     setCollapseState(prevState => !prevState);
@@ -27,15 +37,15 @@ function ResultBar({data, mapRef, onChangeDistance, distance}) {
    **/
   React.useEffect(() => {
     if (isOverElement) {
-      mapRef.current.dragging.disable();
-      mapRef.current.doubleClickZoom.disable();
-      mapRef.current.scrollWheelZoom.disable();
+      map.dragging.disable();
+      map.doubleClickZoom.disable();
+      map.scrollWheelZoom.disable();
       return;
     }
 
-    mapRef.current.dragging.enable();
-    mapRef.current.doubleClickZoom.enable();
-    mapRef.current.scrollWheelZoom.enable();
+    map.dragging.enable();
+    map.doubleClickZoom.enable();
+    map.scrollWheelZoom.enable();
   }, [isOverElement]);
 
   return (
@@ -53,29 +63,25 @@ function ResultBar({data, mapRef, onChangeDistance, distance}) {
       >
         {isCollapse ? '◀' : '▶'}
       </button>
-      <Search distance={distance} onChangeDistance={onChangeDistance} />
+      <Search
+        distance={distance}
+        onChangeDistance={onChangeDistance}
+        getCurrentPosition={getCurrentPosition}
+      />
       <div className={styles.resultItemContainer}>
-        {data.map((hospital, idx) => {
-          if (hospital.isHospital) {
-            return (
-              <div className={styles.resultItem} key={idx}>
-                <h1 className={styles.resultTitle}>{hospital.name}</h1>
-                <p className={styles.resultAttribute}>
-                  Provinsi: {hospital.province}
-                </p>
-                <p className={styles.resultAttribute}>
-                  Alamat: {hospital.address}
-                </p>
-                <p className={styles.resultAttribute}>
-                  Telepon: {hospital.telephone}
-                </p>
-                <p className={styles.resultAttribute}>Fax: {hospital.fax}</p>
-              </div>
-            );
-          }
-
-          return null;
-        })}
+        <div className={styles.resultItem}>
+          {nearestHospitals?.length ? (
+            nearestHospitals.map((hospital, idx) => (
+              <ResultItem
+                key={idx}
+                hospital={hospital}
+                markersRef={markersRef}
+              />
+            ))
+          ) : (
+            <div className={styles.notFound}>Tidak ditemukan</div>
+          )}
+        </div>
       </div>
     </div>
   );

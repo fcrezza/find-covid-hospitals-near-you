@@ -3,7 +3,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  max-width: 450px;
+  width: 400px;
   z-index: 400;
   background-color: #f8f8f8;
   padding: 1rem;
@@ -12,7 +12,7 @@
 }
 
 .resultBarCollapse {
-  transform: translateX(450px);
+  transform: translateX(400px);
 }
 
 .resultItemContainer {
@@ -35,28 +35,9 @@
   left: -35px;
 }
 
-.resultItem {
-  border-radius: 10px;
-  border: 1px solid #d9d9d9;
-  padding: 1rem;
-}
-
-.resultItem:not(:first-child) {
-  margin-top: 1.5rem;
-}
-
-.resultItem:hover {
-  background-color: #f3f3f3;
-}
-
-.resultTitle {
-  font-size: 1.5rem;
-  color: #333;
-  margin: 0 0 12px;
-}
-
-.resultAttribute {
+.notFound {
+  text-align: center;
   font-size: 1rem;
+  font-weight: 500;
   color: #444;
-  margin: 0 0 12px;
 }

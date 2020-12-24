@@ -3,55 +3,27 @@ import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import swal from '@sweetalert/with-react';
 import opencage from 'opencage-api-client';
-import {getDistance, convertDistance} from 'geolib';
 
 // this should be implemented
 // import getHospitals from '../utils/getHospitals';
 import Alert from '../components/Alert';
-// this import for development only
-import hospitals from '../utils/saved-hospitals.json';
+import sortHospitals from '../utils/sortHospitals';
+import findNearestHospitals from '../utils/findNearestHospitals';
+
 const Map = dynamic(() => import('../features/Map/Map'), {
   ssr: false
 });
 
 export default function Home() {
   const [currentPosition, setCurrentPosition] = React.useState(null);
+  const [nearestHospitals, setNearestHospitals] = React.useState(null);
+  const [loading, setLoading] = React.useState(true);
   /**
    * distance in km value.
    * distance can be changed from user input.
    * default distance is 50km.
    */
   const [distance, setDistance] = React.useState(50);
-  let filteredHospitals;
-
-  // implement divide and conquer algorithm in here.
-  if (currentPosition) {
-    filteredHospitals = hospitals.filter(hospital => {
-      // if (hospital.isHospital) {
-      if (hospital.geolocation) {
-        const distanceFromCurrentLocation = convertDistance(
-          getDistance(currentPosition.geolocation, hospital.geolocation, 0.01),
-          'km'
-        );
-        return distanceFromCurrentLocation <= distance;
-      }
-      // }
-    });
-  } else {
-    filteredHospitals = hospitals;
-  }
-
-  const onChangeDistance = e => {
-    setDistance(e.target.value);
-  };
-
-  const coordinateCollection = filteredHospitals
-    .map(hospital => hospital.isHospital && Object.values(hospital.geolocation))
-    .filter(Boolean);
-  const bounds = currentPosition && [
-    Object.values(currentPosition.geolocation),
-    ...coordinateCollection
-  ];
 
   const showAlert = ({title, text}) => {
     return new Promise(resolve => {
@@ -88,10 +60,12 @@ export default function Home() {
           province: res.results[0].components.state,
           geolocation: {latitude, longitude}
         });
+        setLoading(false);
       }, error);
   };
 
   const getCurrentPosition = () => {
+    setLoading(true);
     if ('geolocation' in navigator) {
       navigator.geolocation.getCurrentPosition(success, error);
     } else {
@@ -101,25 +75,39 @@ export default function Home() {
           'Fitur geolocation tidak didukung oleh browser anda, coba buka aplikasi menggunakan browser versi terbaru atau tetap lanjutkan menggunakan aplikasi dengan mencari rumah sakit rujukan melalui kolom pencarian'
       });
     }
-    localStorage.setItem('isVisited', '1');
+  };
+
+  const onChangeDistance = e => {
+    setDistance(e.target.value);
   };
 
   React.useEffect(() => {
-    const isVisited = Boolean(localStorage.getItem('isVisited'));
-
     const init = async () => {
+      const isVisited = Boolean(localStorage.getItem('isVisited'));
       if (!isVisited) {
         await showAlert({
           title: 'PERHATIAN',
           text:
             'Aplikasi ini membutuhkan akses lokasi anda untuk menentukan rumah sakit rujukan yang dekat dengan lokasi anda, tekan "Izinkan/Allow" jika ingin langsung mengetahui lokasi rumah sakit rujukan yang berada didekat anda. Anda juga bisa mengubah radius jangkauan, dan melakukan pencarian rumah sakit rujukan melalui kolom pencarian.'
         });
+        localStorage.setItem('isVisited', '1');
       }
       getCurrentPosition();
     };
 
     init();
   }, []);
+
+  React.useEffect(() => {
+    if (currentPosition) {
+      let hospitalsData = findNearestHospitals(
+        currentPosition.geolocation,
+        distance
+      );
+      hospitalsData = sortHospitals(hospitalsData);
+      setNearestHospitals(hospitalsData);
+    }
+  }, [currentPosition, distance]);
 
   return (
     <div>
@@ -128,21 +116,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Map
-        data={filteredHospitals}
+        nearestHospitals={nearestHospitals}
         currentPosition={currentPosition}
-        bounds={bounds}
+        getCurrentPosition={getCurrentPosition}
         distance={distance}
         onChangeDistance={onChangeDistance}
+        isLoading={loading}
       />
     </div>
   );
 }
-
-// export async function getStaticProps() {
-//   const hospitals = await getHospitals();
-//   return {
-//     props: {
-//       hospitals
-//     }
-//   };
-// }
