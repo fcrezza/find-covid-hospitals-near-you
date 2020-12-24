@@ -1,8 +1,7 @@
 import {getDistance, convertDistance} from 'geolib';
-// this import for development only
-import hospitals from './saved-hospitals.json';
 
-function findNearestHospitals(userCoordinates, distance) {
+async function findNearestHospitals(userCoordinates, distance) {
+  const hospitals = await fetchHospitals();
   return hospitals.filter(hospital => {
     if (hospital.isHospital) {
       if (hospital.geolocation) {
@@ -17,6 +16,22 @@ function findNearestHospitals(userCoordinates, distance) {
       }
     }
   });
+}
+
+async function fetchHospitals() {
+  const isProduction = process.env.NODE_ENV === 'production';
+
+  if (isProduction) {
+    const res = await fetch(
+      'https://raw.githubusercontent.com/fcrezza/find-covid-hospitals-near-you/main/utils/saved-hospitals.json'
+    );
+    const json = await res.json();
+    return json;
+  }
+
+  const hospitals = (await import('./saved-hospitals.json')).default;
+  console.log(hospitals);
+  return hospitals;
 }
 
 export default findNearestHospitals;

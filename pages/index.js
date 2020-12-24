@@ -25,7 +25,7 @@ export default function Home() {
    */
   const [distance, setDistance] = React.useState(50);
 
-  const error = () => {
+  const onError = () => {
     swal({
       button: 'Coba lagi',
       content: (
@@ -37,7 +37,7 @@ export default function Home() {
     }).then(() => location.reload());
   };
 
-  const success = position => {
+  const onSuccess = position => {
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
     opencage
@@ -55,14 +55,13 @@ export default function Home() {
           province: res.results[0].components.state,
           geolocation: {latitude, longitude}
         });
-        setLoading(false);
-      }, error);
+      }, onError);
   };
 
   const getCurrentPosition = () => {
     setLoading(true);
     if ('geolocation' in navigator) {
-      navigator.geolocation.getCurrentPosition(success, error);
+      navigator.geolocation.getCurrentPosition(onSuccess, onError);
     } else {
       swal({
         button: 'Ya, saya mengerti',
@@ -102,13 +101,22 @@ export default function Home() {
   }, []);
 
   React.useEffect(() => {
+    const getHospitalData = async () => {
+      try {
+        let hospitalsData = await findNearestHospitals(
+          currentPosition.geolocation,
+          distance
+        );
+        hospitalsData = sortHospitals(hospitalsData);
+        setNearestHospitals(hospitalsData);
+        setLoading(false);
+      } catch (error) {
+        onError();
+      }
+    };
+
     if (currentPosition) {
-      let hospitalsData = findNearestHospitals(
-        currentPosition.geolocation,
-        distance
-      );
-      hospitalsData = sortHospitals(hospitalsData);
-      setNearestHospitals(hospitalsData);
+      getHospitalData();
     }
   }, [currentPosition, distance]);
 
